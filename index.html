@@ -6,10 +6,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
 <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="estilos/estilos.css">
 </head>
 
-<body>
+<body class="cuerpo-color">
 
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BonoMarket</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="local.html">Localidades</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="titulo-principal">
+        <h1 class="tituloPrincipal">BonoMarket</h1>
+        <h2 class="tituloSecundario">Tienda de juegos y productos tecnologicos.</h2>
+</div>
+</header>
+
+
+
+<main>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/battlefield-V.jpg"  alt="..." height="800" width="800">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulosJuegos">Battlefield V</h5>
+              <p class="textoJuegos">Ultimas copias en venta, aprovecha antes que se acabe!!!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/god-of-war.jpg"  alt="..." height="800" width="800">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulosJuegos">God Of War IV</h5>
+              <p class="textoJuegos">Ahora God of War IV esta a un 20%off. No lo dejes pasar!!!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/gran-turismo-7.jpg"  alt="..." height="800" width="800">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulosJuegos">Gran Turismo 7</h5>
+              <p class="textoJuegos">Llegando la proxima semana. No te lo pierdas!!!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Novedades!
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Dentro de unas semanas van a llegar mas copias del Call of Duty Cold War! Su precio rondara dentro de los 80$USD. No te lo pierdas este juegazo nuevo de Activision.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Malas Noticias...
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Nuestro ultimo pedido por controles de Play Station 4 fue cancelado gracias al Covid-19. Pedimos disculpas por todos los pedidos que van a ser retrasados. Cuando tengamos noticias sobre alguna fecha de reanudacion, les avisaremos lo mas rapido posible. Gracias por la paciencia!!!</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Proximamente...
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Esten atentos a nuestras redes sociales porque se van a venir SORTEOS!!!!! Estaremos avisando que productos vamos a sortear por las redes. Suerte a todos y esten alerta!</div>
+          </div>
+        </div>
+      </div>
+
+
+</main>
+
+
+
+
+
+
+
+<footer>
+    <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="text-muted"><p>&copy; 2022 Tomas Bianchi</p></span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="" target="_blank"><img src="../imagenes/logo-facebook.png" height="25" width="25"></a></li>
+      <li class="ms-3"><a class="text-muted" href="" target="_blank"><img src="../imagenes/logo-instagram.png" height="25" width="25"></a></li>
+      <li class="ms-3"><a class="text-muted" href="" target="_blank"><img src="../imagenes/logo-whatsapp.png" height="25" width="25"></a></li>
+      </ul>
+    </footer>
+  </div>
+</footer>
 
 
     <script src="js/bootstrap.js"></script>
